@@ -25,41 +25,72 @@ main{
   display: flex;
   justify-content: flex-start;
   padding: 30px;
-}
-
-.box1 {
-  background-image: url('images/6666.PNG');
   background-size: cover;
   background-position: center;
 }
 
+.box1 {
+  background-image: url('images/dove.jpeg');
+}
+
 .box2 {
-  background-image: url('images/444.PNG');
+  background-image: url('images/towel.jpeg');
 }
 
 .box3 {
-  background-image: url('images/82.PNG');
+  background-image: url('images/simple.jpeg');
 }
 
 
 .box4 {
-  background-image: url('images/322.PNG');
+  background-image: url('images/toner.jpeg');
 }
 
 .box5 {
-  background-image: url('images/333.PNG');
+  background-image: url('images/lip.jpeg');
 }
 
 .box6 {
-  background-image: url('images/sps.PNG');
+  background-image: url('images/cream.png');
 }
 
 .styleButton {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 5px;
   padding: 5px 10px; 
   font-size: 25px;   
   width: 40%; 
   height: 60px;  
-  background-color: yellow;  
+  background-color: beige;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  animation: wiggle 2s linear infinite;
 }
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+
