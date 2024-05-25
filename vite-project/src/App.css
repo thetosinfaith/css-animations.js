@@ -21,12 +21,13 @@ main{
 }
 
 .box {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: flex-start;
   padding: 30px;
   background-size: cover;
   background-position: center;
+  
 }
 
 .box1 {
@@ -41,7 +42,6 @@ main{
   background-image: url('images/simple.jpeg');
 }
 
-
 .box4 {
   background-image: url('images/toner.jpeg');
 }
@@ -53,6 +53,9 @@ main{
 .box6 {
   background-image: url('images/cream.png');
 }
+
+
+
 
 .styleButton {
   border-radius: 5px;
